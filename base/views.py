@@ -338,8 +338,8 @@ class CreatePaymentView(APIView):
                     "payment_method": "paypal"
                 },
                 "redirect_urls": {
-                    "return_url": "http://localhost:3000/loading",
-                    "cancel_url": "http://localhost:3000/"
+                    "return_url": "https://az-platepal.netlify.app/loading",
+                    "cancel_url": "https://az-platepal.netlify.app/"
                 },
                 "transactions": [{
                     "item_list": {
